@@ -36,7 +36,7 @@
     ],
     "modules": [
         {
-            "cleanup": ["*"],
+            "cleanup": ["/include", "/share"],
             "name": "zlib",
             "config-opts": [ "--static" ],
             "sources": [
@@ -48,7 +48,7 @@
             ]
         },
         {
-            "cleanup": ["*"],
+            "cleanup": ["/include", "/share"],
             "name": "lzma",
             "config-opts": [ "--disable-shared" ],
             "sources": [
